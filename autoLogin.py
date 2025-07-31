@@ -1,14 +1,12 @@
 import json
-import getpass
 import py7zr
 import tempfile
 import os
 import subprocess
 import time
 import pyautogui
-import tkinter
 import customtkinter
-from tkinter import messagebox
+
 
 archive_path = r"C:\Users\kubag\Desktop\skrypt\passwords.7z"
 riot_client_path = r"C:\Riot Games\Riot Client\RiotClientServices.exe"

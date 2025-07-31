@@ -24,8 +24,6 @@ Automated Login: The script automatically opens the Riot Client, waits for the l
 
 ## Getting Started
 Prerequisites
-To run this script, you'll need to have the following installed:
-
-Python 3.x
 
 The required Python libraries. You can install them using pip:
+* pip install customTkinter py7zr pyautogui 
