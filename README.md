@@ -1,0 +1,2 @@
+# AutoLOL-login
+A Python script designed to streamline the Riot Games login process. It automates opening the Riot Client and provides a quick way to log in to one of three different accounts. Account credentials are kept safe within a password-protected, encrypted archive. This tool is perfect for players who frequently switch between accounts and want to avoid manually entering their login details every time.
