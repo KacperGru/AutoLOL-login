@@ -37,21 +37,8 @@ The required Python libraries. You can install them using pip:
 * pip install customTkinter py7zr pyautogui
 
 ## Configuration
-1.  <b> Create the JSON file:</b>You need a JSON file containing your account credentials. The file should be structured like this, with three accounts:
-{
-  "account_name_1": {
-    "username": "your_username_1",
-    "password": "your_password_1"
-  },
-  "account_name_2": {
-    "username": "your_username_2",
-    "password": "your_password_2"
-  },
-  "account_name_3": {
-    "username": "your_username_3",
-    "password": "your_password_3"
-  }
-}
+1.  <b> Create the JSON file:</b>You need a JSON file containing your account credentials.
+
 
 2. Create the encrypted archive: Use a program 7-Zip to compress your JSON file into a password-protected 7z archive. The script expects this archive to be named passwords.7z and located at the path specified by the archive_path variable in the script.
 
