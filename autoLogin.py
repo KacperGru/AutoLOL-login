@@ -8,8 +8,8 @@ import pyautogui
 import customtkinter
 
 
-archive_path = r"C:\Users\kubag\Desktop\skrypt\passwords.7z"
-riot_client_path = r"C:\Riot Games\Riot Client\RiotClientServices.exe"
+archive_path = r"YOUR\ARCHIVE\WITH\JSON\FILE\PATH"
+riot_client_path = r"YOUR\RIOT\CLIENT\PATH"
 
 
 def loginCredentials(archivePath, archivePassword):
@@ -108,9 +108,9 @@ def programPassword(password):
 def programStart(acc_name):
     selectingacc(acc_name)
     launchLeague()
-    time.sleep(12)
+    time.sleep(12) #waiting for riot client to open (I have bad computer so waiting time is long)
     enterCredentials(acc_login, acc_password)
-    time.sleep(10)
+    time.sleep(5)
     quit()
     
 
